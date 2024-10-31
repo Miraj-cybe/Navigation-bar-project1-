@@ -1,0 +1,60 @@
+body{
+    font-family:'Poppins', sans-serif ;
+    margin:0px;
+}
+#main_menu{
+    background-color: navy;
+   
+}
+#main_menu ul{
+    margin: 0px;
+   
+    text-align: center;
+
+}
+#main_menu li{
+    display:inline-block;
+    position: relative;
+  
+}
+#main_menu li a{
+    text-decoration: none;
+    display: block;
+    padding: 12px 10px;
+    color: #fff;
+
+}
+#main_menu li a:hover{
+    background: gray;
+ 
+
+}
+
+#main_menu ul ul{
+    position: absolute;
+    
+    padding: 0px;
+    left: 0;
+    top: 42px;
+    background: #5758bb;
+    width: 200px;   
+    display: none;
+
+}
+#main_menu ul ul li{
+    display: block;
+    
+}
+#main_menu ul li:hover ul{
+    display:block;
+}
+#main_menu ul li:hover a{
+    background: navy;
+}
+#main_menu ul li:hover a{
+    background:  #5758bb;
+    
+}
+#main_menu ul ul li a:hover{
+    background: aquamarine;
+}
